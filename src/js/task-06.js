@@ -16,29 +16,3 @@ function onFocusLost() {
   }
 }
 
-// function onFocusLost() {
-//   let inputLength = validationInputEl.value.length;
-
-//   if (inputLength === Number(dataLengthNum)) {
-//     validationInputEl.classList.toggle("valid");
-//   } else {
-//     validationInputEl.classList.toggle("invalid");
-//   }
-// }
-// console.log(validationInputEl.value.length);
-
-// -------------------
-
-// const validationInput = document.querySelector("#validation-input");
-// validationInput.addEventListener("blur", () => {
-//   validationInput.classList.toggle(
-//     "valid",
-//     validationInput.value.length >= dataLengthNum
-//   );
-//   validationInput.classList.toggle(
-//     "invalid",
-//     validationInput.value.length < dataLengthNum
-//   );
-// });
-
-// console.log(validationInput.value.length < dataLengthNum);

@@ -8,9 +8,6 @@ formEl.addEventListener("submit", onFormSubmit);
 function onFormSubmit(event) {
   event.preventDefault();
 
-  //   console.dir(event.target.email.value);
-  //   console.dir(event.target.password.value);
-
   if (event.target.email.value === "" || event.target.password.value === "") {
     return alert("Заповніть всі поля, живо");
   }
