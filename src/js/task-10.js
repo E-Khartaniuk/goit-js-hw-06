@@ -4,8 +4,8 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-const controls = document.getElementById("controls").children;
 const boxes = document.getElementById("boxes");
+const controls = document.getElementById("controls").children;
 
 const inputEl = controls[0];
 const createEl = controls[1];

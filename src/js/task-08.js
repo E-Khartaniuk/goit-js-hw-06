@@ -9,7 +9,7 @@ function onFormSubmit(event) {
   event.preventDefault();
 
   if (event.target.email.value === "" || event.target.password.value === "") {
-    return alert("Заповніть всі поля, живо");
+    return alert("Заповніть всі поля");
   }
 
   const userData = {
